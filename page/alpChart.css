@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    background-color: #47078c;
+    color: #ffffff;
+}
+
+
+.navbar li{
+    padding-right: 20px;
+}
+.navbar li a{
+    color: darkgray;
+    font-size: 18px;
+}
+
+.navbar li a:hover{
+    color: #ffffff;
+}
+
+.home img{
+    width: 100%;
+    height: 100%;
+}
+
+.footer1{
+    background-color: #47078c;
+    color: #ffffff;
+}

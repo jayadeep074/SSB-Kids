@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    background-color: #47078c;
+    width: 100%;
+}
+
+.home{
+    background-image: url(../images/—Pngtree—cartoon\ cute\ childrens\ day\ holiday_973652.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.home .container{
+    padding-left: 35%;
+}
+
+.home .container img{
+    width: 20%;
+}
+
+.about .row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.about img{
+    width: 100%;
+}
+
+.kids .container{
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+.kids .row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.kids img{
+    width: 50%;
+}
+
+.kids .col-sm{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.ceo .col-md{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.1rem;
+    align-items: center;
+    text-align: center;
+}
+
+.ceo .row img{
+    width: 20%;
+}
+
+.footer ul li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer ul li a:hover{
+    color: #47078c;
+}
+
+.footer ul i, .footer .col i{
+    padding-right: 10px;
+}
+
+.footer1{
+    background-color: #47078c;
+    color: #ffffff;
+}
